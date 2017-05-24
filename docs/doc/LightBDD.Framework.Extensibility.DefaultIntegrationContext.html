@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DefaultIntegrationContext
+   | docfx seed website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DefaultIntegrationContext
+   | docfx seed website ">
+    <meta name="generator" content="docfx 2.17.5.12">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext">
+  
+  
+  <h1 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext">Class DefaultIntegrationContext
+  </h1>
+  <div class="markdown level0 summary"><p>A default implementation of <see cref="!:IntegrationContext"></see>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DefaultIntegrationContext</span></div>
+  </div>
+  <h6><strong>Namespace</strong>:LightBDD.Framework.Extensibility</h6>
+  <h6><strong>Assembly</strong>:cs.temp.dll.dll</h6>
+  <h5 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DefaultIntegrationContext : IntegrationContext</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="LightBDD_Framework_Extensibility_DefaultIntegrationContext__ctor_" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.#ctor*"></a>
+  <h4 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext__ctor_LightBddConfiguration_IMetadataProvider_Func_Exception_ExecutionStatus__" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.#ctor(LightBddConfiguration,IMetadataProvider,Func{Exception,ExecutionStatus})">DefaultIntegrationContext(LightBddConfiguration, IMetadataProvider, Func&lt;Exception, ExecutionStatus&gt;)</h4>
+  <div class="markdown level1 summary"><p>Default constructor sealing provided <span class="paramref">configuration</span> and initializing all properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultIntegrationContext(LightBddConfiguration configuration, IMetadataProvider metadataProvider, Func&lt;Exception, ExecutionStatus&gt; exceptionToStatusMapper)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LightBddConfiguration</span></td>
+        <td><span class="parametername">configuration</span></td>
+        <td><p>Configuration to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IMetadataProvider</span></td>
+        <td><span class="parametername">metadataProvider</span></td>
+        <td><p><see cref="!:IMetadataProvider"></see> instance to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Exception</span>, <span class="xref">ExecutionStatus</span>&gt;</td>
+        <td><span class="parametername">exceptionToStatusMapper</span></td>
+        <td><p>Exception to status mapper function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_Configuration_" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.Configuration*"></a>
+  <h4 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_Configuration" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.Configuration">Configuration</h4>
+  <div class="markdown level1 summary"><p>Returns LightBDD Configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override LightBddConfiguration Configuration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LightBddConfiguration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_ExceptionToStatusMapper_" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.ExceptionToStatusMapper*"></a>
+  <h4 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_ExceptionToStatusMapper" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.ExceptionToStatusMapper">ExceptionToStatusMapper</h4>
+  <div class="markdown level1 summary"><p>Returns exception to status mapping method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Func&lt;Exception, ExecutionStatus&gt; ExceptionToStatusMapper { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Exception</span>, <span class="xref">ExecutionStatus</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_ExecutionExtensions_" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.ExecutionExtensions*"></a>
+  <h4 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_ExecutionExtensions" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.ExecutionExtensions">ExecutionExtensions</h4>
+  <div class="markdown level1 summary"><p>Returns LightBDD execution extensions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IExecutionExtensions ExecutionExtensions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IExecutionExtensions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_FeatureProgressNotifier_" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.FeatureProgressNotifier*"></a>
+  <h4 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_FeatureProgressNotifier" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.FeatureProgressNotifier">FeatureProgressNotifier</h4>
+  <div class="markdown level1 summary"><p>Returns feature progress notifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IFeatureProgressNotifier FeatureProgressNotifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IFeatureProgressNotifier</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_MetadataProvider_" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.MetadataProvider*"></a>
+  <h4 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_MetadataProvider" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.MetadataProvider">MetadataProvider</h4>
+  <div class="markdown level1 summary"><p>Returns metadata provider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IMetadataProvider MetadataProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IMetadataProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_NameFormatter_" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.NameFormatter*"></a>
+  <h4 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_NameFormatter" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.NameFormatter">NameFormatter</h4>
+  <div class="markdown level1 summary"><p>Returns name formatter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override INameFormatter NameFormatter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">INameFormatter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_ScenarioProgressNotifierProvider_" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.ScenarioProgressNotifierProvider*"></a>
+  <h4 id="LightBDD_Framework_Extensibility_DefaultIntegrationContext_ScenarioProgressNotifierProvider" data-uid="LightBDD.Framework.Extensibility.DefaultIntegrationContext.ScenarioProgressNotifierProvider">ScenarioProgressNotifierProvider</h4>
+  <div class="markdown level1 summary"><p>Returns scenario progress notifier provider method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Func&lt;object, IScenarioProgressNotifier&gt; ScenarioProgressNotifierProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">System.Object</span>, <span class="xref">IScenarioProgressNotifier</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
