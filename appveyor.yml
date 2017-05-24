@@ -1,0 +1,20 @@
+version: 1.0.{build}
+environment: 
+  access_token:
+    secure: Xu3+xPTTII2UDM8Bc6DH0H82IlTLOdJ3+ROJBOP84PvWvuYotiNk/OHRw+eMVuur
+build_script: 
+  - ps: 
+    .\build.ps1 
+on_success: 
+  - ps: >- 
+    & git config --global credential.helper store 
+    Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n" 
+    & git config --global user.email "Appveyor Deploy" 
+    & git config --global user.name "Appveyor Deploy" $repourl = & git config --get remote.origin.url 
+    & git clone $repourl pages 
+    cd pages 
+    & git checkout gh-pages 
+    Remove-Item -recurse docs 
+    Move-Item ..\docs . 
+    & git commit '-a' '--allow-empty' '-m' "pages commit $VERSION" 
+    & git push origin gh-pages
