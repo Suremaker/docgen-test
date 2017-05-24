@@ -6,7 +6,9 @@ environment:
 build_script: 
 - ps: 
     .\build.ps1 
-
+artifacts: 
+- path: docs 
+  name: out
 on_success: 
 - ps: |
     & git config --global credential.helper store
@@ -16,8 +18,11 @@ on_success:
     $repourl = & git config --get remote.origin.url
     & git clone $repourl pages 
     cd pages 
-    & git checkout gh-pages 
+    & git checkout gh-pages
+    & git status
     Remove-Item -recurse docs 
     Move-Item ..\docs . 
+    & git status
     & git commit '-a' '--allow-empty' '-m' "pages commit $VERSION" 
+    & git status
     & git push origin gh-pages
