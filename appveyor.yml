@@ -23,6 +23,7 @@ on_success:
     Remove-Item -recurse docs 
     Move-Item ..\docs . 
     & git status
-    & git commit '-a' '--allow-empty' '-m' "pages commit $VERSION" 
+    & git add -A
+    & git commit '--allow-empty' '-m' "pages commit $VERSION" 
     & git status
     & git push origin gh-pages
