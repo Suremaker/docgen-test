@@ -1,10 +1,10 @@
 {
-  "metadata": [{ "src": "src/src/**.cs", "dest": "api" }],
+  "metadata": [{ "src": "src/src/**.cs", "dest": "tmp" }],
   "build": {
     "content": [
       {
         "files": [ "**/*.yml" ],
-        "cwd": "api",
+        "cwd": "tmp",
         "dest": "doc"
       }
     ],
@@ -12,6 +12,6 @@
       "_appTitle": "docfx seed website",
       "_enableSearch": true
     },
-    "dest": "_site"
+    "dest": "docs"
   }
 }
