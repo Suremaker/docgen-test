@@ -1,21 +1,10 @@
 {
-  "metadata": [
-    {
-      "src": [
-        {
-          "files": [ "**/*.sln" ],
-          "exclude": [ "**/bin/**", "**/obj/**" ],
-          "cwd": "src"
-        }
-      ],
-      "dest": "tmp"
-    }
-  ],
+  "metadata": [{ "src": "src/src/**.cs", "dest": "api" }],
   "build": {
     "content": [
       {
         "files": [ "**/*.yml" ],
-        "cwd": "tmp",
+        "cwd": "api",
         "dest": "doc"
       }
     ],
