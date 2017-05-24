@@ -14,10 +14,40 @@
     "title": "Class SpeditionContext | docfx seed website",
     "keywords": "Class SpeditionContext Inheritance System.Object SpeditionContext Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contexts Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class SpeditionContext : object Methods | Improve this Doc View Source Product_should_be_dispatched_to_the_customer(String) Declaration public void Product_should_be_dispatched_to_the_customer(string product) Parameters Type Name Description System.String product | Improve this Doc View Source The_customer_has_product_in_basket(String) Declaration public void The_customer_has_product_in_basket(string product) Parameters Type Name Description System.String product | Improve this Doc View Source The_customer_payment_finalizes() Declaration public void The_customer_payment_finalizes() | Improve this Doc View Source There_is_an_active_customer_with_id(String) Declaration public void There_is_an_active_customer_with_id(string id) Parameters Type Name Description System.String id"
   },
+  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contexts.html": {
+    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contexts.html",
+    "title": "Namespace LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contexts | docfx seed website",
+    "keywords": "Namespace LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contexts Classes ContactsManagementContext SpeditionContext"
+  },
   "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Login_feature.html": {
     "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Login_feature.html",
     "title": "Class Login_feature | docfx seed website",
     "keywords": "Class Login_feature Inheritance System.Object Login_feature Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class Login_feature : FeatureFixture Methods | Improve this Doc View Source Anonymous_login_name_should_allow_to_log_in() This test presents how LightBDD treats test failures Declaration public void Anonymous_login_name_should_allow_to_log_in() | Improve this Doc View Source Successful_login() Declaration public void Successful_login() | Improve this Doc View Source Wrong_login_provided_causes_login_to_fail() Declaration public void Wrong_login_provided_causes_login_to_fail() | Improve this Doc View Source Wrong_password_provided_causes_login_to_fail() Declaration public void Wrong_password_provided_causes_login_to_fail()"
+  },
+  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Product_spedition_feature.html": {
+    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Product_spedition_feature.html",
+    "title": "Class Product_spedition_feature | docfx seed website",
+    "keywords": "Class Product_spedition_feature Inheritance System.Object Product_spedition_feature Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class Product_spedition_feature : FeatureFixture Methods | Improve this Doc View Source Should_dispatch_product_after_payment_is_finalized() Declaration public void Should_dispatch_product_after_payment_is_finalized()"
+  },
+  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.LightBddIntegration.html": {
+    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.LightBddIntegration.html",
+    "title": "Class LightBddIntegration | docfx seed website",
+    "keywords": "Class LightBddIntegration Inheritance System.Object LightBddIntegration Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class LightBddIntegration : object Methods | Improve this Doc View Source Cleanup() Declaration public static Task Cleanup() Returns Type Description Task | Improve this Doc View Source Setup(TestContext) Declaration public static void Setup(TestContext testContext) Parameters Type Name Description TestContext testContext"
+  },
+  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Basket_feature.html": {
+    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Basket_feature.html",
+    "title": "Class Basket_feature | docfx seed website",
+    "keywords": "Class Basket_feature Inheritance System.Object Basket_feature Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class Basket_feature : FeatureFixture Methods | Improve this Doc View Source No_product_in_stock() Declaration public Task No_product_in_stock() Returns Type Description Task | Improve this Doc View Source SetUp() Declaration public void SetUp() | Improve this Doc View Source Successful_addition() This test presents how LightBDD treats tests with Inconclusive / Ignore asserts Declaration public Task Successful_addition() Returns Type Description Task"
+  },
+  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contacts_management.html": {
+    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contacts_management.html",
+    "title": "Class Contacts_management | docfx seed website",
+    "keywords": "Class Contacts_management Inheritance System.Object Contacts_management Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class Contacts_management : FeatureFixture Methods | Improve this Doc View Source Contact_book_should_allow_me_to_add_multiple_contacts() Declaration public void Contact_book_should_allow_me_to_add_multiple_contacts() | Improve this Doc View Source Contact_book_should_allow_me_to_remove_all_contacts() Declaration public void Contact_book_should_allow_me_to_remove_all_contacts() | Improve this Doc View Source Contact_book_should_allow_me_to_remove_contacts() Declaration public void Contact_book_should_allow_me_to_remove_contacts()"
+  },
+  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Invoice_feature.html": {
+    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Invoice_feature.html",
+    "title": "Class Invoice_feature | docfx seed website",
+    "keywords": "Class Invoice_feature Inheritance System.Object Invoice_feature Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class Invoice_feature : FeatureFixture Methods | Improve this Doc View Source Receiving_invoice_for_products() Declaration public void Receiving_invoice_for_products()"
   },
   "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Payment_feature.html": {
     "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Payment_feature.html",
@@ -33,35 +63,5 @@
     "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.html",
     "title": "Namespace LightBDD.Example.AcceptanceTests.MsTest2.UWP | docfx seed website",
     "keywords": "Namespace LightBDD.Example.AcceptanceTests.MsTest2.UWP Classes Categories LightBddIntegration"
-  },
-  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Basket_feature.html": {
-    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Basket_feature.html",
-    "title": "Class Basket_feature | docfx seed website",
-    "keywords": "Class Basket_feature Inheritance System.Object Basket_feature Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class Basket_feature : FeatureFixture Methods | Improve this Doc View Source No_product_in_stock() Declaration public Task No_product_in_stock() Returns Type Description Task | Improve this Doc View Source SetUp() Declaration public void SetUp() | Improve this Doc View Source Successful_addition() This test presents how LightBDD treats tests with Inconclusive / Ignore asserts Declaration public Task Successful_addition() Returns Type Description Task"
-  },
-  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contacts_management.html": {
-    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contacts_management.html",
-    "title": "Class Contacts_management | docfx seed website",
-    "keywords": "Class Contacts_management Inheritance System.Object Contacts_management Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class Contacts_management : FeatureFixture Methods | Improve this Doc View Source Contact_book_should_allow_me_to_add_multiple_contacts() Declaration public void Contact_book_should_allow_me_to_add_multiple_contacts() | Improve this Doc View Source Contact_book_should_allow_me_to_remove_all_contacts() Declaration public void Contact_book_should_allow_me_to_remove_all_contacts() | Improve this Doc View Source Contact_book_should_allow_me_to_remove_contacts() Declaration public void Contact_book_should_allow_me_to_remove_contacts()"
-  },
-  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contexts.html": {
-    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contexts.html",
-    "title": "Namespace LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contexts | docfx seed website",
-    "keywords": "Namespace LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Contexts Classes ContactsManagementContext SpeditionContext"
-  },
-  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Invoice_feature.html": {
-    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Invoice_feature.html",
-    "title": "Class Invoice_feature | docfx seed website",
-    "keywords": "Class Invoice_feature Inheritance System.Object Invoice_feature Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class Invoice_feature : FeatureFixture Methods | Improve this Doc View Source Receiving_invoice_for_products() Declaration public void Receiving_invoice_for_products()"
-  },
-  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Product_spedition_feature.html": {
-    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features.Product_spedition_feature.html",
-    "title": "Class Product_spedition_feature | docfx seed website",
-    "keywords": "Class Product_spedition_feature Inheritance System.Object Product_spedition_feature Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP.Features Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class Product_spedition_feature : FeatureFixture Methods | Improve this Doc View Source Should_dispatch_product_after_payment_is_finalized() Declaration public void Should_dispatch_product_after_payment_is_finalized()"
-  },
-  "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.LightBddIntegration.html": {
-    "href": "doc/LightBDD.Example.AcceptanceTests.MsTest2.UWP.LightBddIntegration.html",
-    "title": "Class LightBddIntegration | docfx seed website",
-    "keywords": "Class LightBddIntegration Inheritance System.Object LightBddIntegration Namespace :LightBDD.Example.AcceptanceTests.MsTest2.UWP Assembly :LightBDD.Example.AcceptanceTests.MsTest2.UWP.dll Syntax public class LightBddIntegration : object Methods | Improve this Doc View Source Cleanup() Declaration public static Task Cleanup() Returns Type Description Task | Improve this Doc View Source Setup(TestContext) Declaration public static void Setup(TestContext testContext) Parameters Type Name Description TestContext testContext"
   }
 }
