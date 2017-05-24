@@ -1,6 +1,6 @@
 version: 1.0.{build}
 image: Visual Studio 2015
-environment: 
+environment:
   access_token:
     secure: Xu3+xPTTII2UDM8Bc6DH0H82IlTLOdJ3+ROJBOP84PvWvuYotiNk/OHRw+eMVuur
 build_script: 
@@ -13,7 +13,7 @@ on_success:
 - ps: |
     & git config --global credential.helper store
     Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
-    & git config --global user.email "Appveyor Deploy" 
+    & git config --global user.email "Appveyor Deploy"
     & git config --global user.name "Appveyor Deploy"
     $repourl = & git config --get remote.origin.url
     & git clone $repourl pages 
