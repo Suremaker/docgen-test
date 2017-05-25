@@ -1,5 +1,5 @@
 {
-  "metadata": [{ "src": "src/src/**.csproj", "dest": "tmp" }],
+  "metadata": [{ "src": "src/src/**/*.csproj", "dest": "tmp" }],
   "build": {
     "content": [
       {
