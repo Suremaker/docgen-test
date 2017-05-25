@@ -1,5 +1,5 @@
 {
-  "metadata": [{ "src": "src/LightBDD.sln", "dest": "tmp" }],
+  "metadata": [{ "src": "src/src/**.csproj", "dest": "tmp" }],
   "build": {
     "content": [
       {
